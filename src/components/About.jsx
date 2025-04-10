@@ -1,5 +1,5 @@
 import Star from "@/assets/Sparkles.png";
-import User from "@/assets/faq.avif";
+import User from "@/assets/about.png";
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -74,7 +74,7 @@ const About = () => {
     </Swiper>
       </aside>
       <div className="bg-cover bg-center rounded-4xl relative"   style={{ backgroundImage: `url(${User})` }}>
-               <div className="bg-white w-9/12 h-52  absolute left-5 rounded-4xl bottom-5 p-10">
+               <div className="bg-white w-9/12 h-44  absolute left-10 rounded-4xl bottom-5 p-6">
                    <h3>Steward Agencies</h3>
 
                    <div className="flex space-x-2 items-center opacity-60 text-xs mt-4">
@@ -87,7 +87,7 @@ const About = () => {
                    <p className="uppercase text-base font-semibold mt-1 mb-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A animi facilis rerum nulla nostrum officiis nisi velit quo labore at?</p>
                </div>
 
-               <div className="absolute h-40 w-28 top-0 right-0 rounded-r-4xl  bg-white"></div>
+               {/* <div className="absolute h-40 w-28 top-0 right-0 rounded-r-4xl  bg-white"></div> */}
       </div>
     </section>
   )

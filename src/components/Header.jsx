@@ -31,7 +31,7 @@ const items = [
 const Header = () => {
   return (
     <>
-      <header className="w-full flex justify-between items-center text-[#323C24] text-sm antialiased font-medium opacity-70 h-16 px-36">
+      <header className="w-full flex justify-between items-center text-[#323C24] text-sm antialiased font-medium opacity-70 h-16 px-10">
          <div className="">Steward Agencies</div>
          <nav className="flex items-center space-x-14">
              <a href="#">Home</a>

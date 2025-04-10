@@ -1,12 +1,12 @@
-import Estate from "../assets/estate.jpg"
+import Estate from "../assets/service.png"
 
 const Services = () => {
   return (
-    <section className='grid grid-cols-2 h-[500px] gap-x-3 text-white bg-[#323C24] p-8 relative'>
-        <img src={Estate} alt="estate" className="rounded-4xl h-[400px] object-center object-cover"/>
+    <section className='grid grid-cols-2 h-[500px] gap-x-3 text-white bg-[#323C24] p-8 '>
+        <img src={Estate} alt="estate" className="rounded-4xl h-[450px] object-center object-cover"/>
 
         <aside className="">
-        <h2  className="text-3xl z-10 font-medium uppercase tracking-wider -ml-10">Our Services: Sale, Rental, Counsultaions</h2>
+        <h2  className="text-3xl z-10 font-medium uppercase mt-4 tracking-wider -ml-24">Our Services: Sale, <br /> Rental, Counsultaions</h2>
 
             <div className="flex items-center space-x-4 my-8 text-sm">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-20">
@@ -14,7 +14,6 @@ const Services = () => {
                         </svg>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ducimus facere assumenda eum excepturi veniam quae asperiores facilis, voluptatibus obcaecati deserunt aperiam. Itaque in quae obcaecati.</p>
             </div>
-            <div className="absolute rounded-tr-4xl bg-[#323C24] h-36  rounded-bl-4xl top-8 left-[37.5%] w-32"></div>
         </aside>
     </section>
   )
