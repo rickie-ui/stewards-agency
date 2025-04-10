@@ -38,7 +38,7 @@ const Home = () => {
           <div className="w-5/12 relative">
                   <h1 className="text-7xl tracking-wider font-medium">Real Estate Agency You Trust</h1>
 
-                  <p className="text-sm my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit atque nihil, ad cum molestias nostrum dolores officia corrupti impedit minima deserunt explicabo voluptatibus.</p>
+                  <p className="text-sm my-6">At Stewards Agencies, we specialize in helping you buy, sell, rent, and invest in the best properties across Nairobi and beyond. Whether you’re searching for a dream home, a high-return investment, or expert property management services, we are committed to delivering excellence.</p>
 
                   <div className="flex items-center space-x-5 mb-10">
                            <a href="#" className="uppercase px-6 py-3 bg-[#323C24] text-white rounded-full hover:bg-[#323C24]/90 duration-300">Book a free call</a>
@@ -52,7 +52,15 @@ const Home = () => {
                            <p className="text-sm"><span>13k+</span> <span className="opacity-60">Reviews</span></p>
                        </div>
 
-                       <div className="text-xs w-1/2 self-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex repellendus soluta aliquam voluptatum architecto non molestias omnis odio culpa eum.</div>
+                       <div className="text-xs w-1/2 self-center">
+                         Why Choose Stewards Agencies?
+                         <ul className="list-disc pl-5">
+                              <li>Deep Market Knowledge</li>
+                              <li>Wide Selection of Properties</li>
+                              <li>Personalized Service & Professionalism</li>
+                              <li>Smooth & Transparent Transactions</li>
+                         </ul>
+                       </div>
 
                        <div className="h-24 w-24 rounded-2xl bg-center bg-cover relative" style={{ backgroundImage: `url(${Image2})`}}>
                         <div className="h-10 w-10 rounded-full flex items-center justify-center text-white absolute bg-[#323C24] top-1/3 -left-5">
